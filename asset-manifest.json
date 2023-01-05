@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c47ad5ef.css",
+    "main.js": "/static/js/main.bb259043.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/video-player.png": "/static/media/video-player.86b6d05694af24de84aa.png",
+    "static/media/micro-sp-new.png": "/static/media/micro-sp-new.ac29ec74432e5fb28dda.png",
+    "static/media/sandbox.png": "/static/media/sandbox.a37752d2c3e2198813e2.png",
+    "static/media/re-spring.png": "/static/media/re-spring.f961597673ee6cc44645.png",
+    "static/media/home-main.svg": "/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/qr-code.png": "/static/media/qr-code.b128e2bd069b683fd7a9.png",
+    "static/media/input-number.png": "/static/media/input-number.ba444d30cc740327ff47.png",
+    "static/media/Soumyajit_Behera-BIT_MESRA.pdf": "/static/media/Soumyajit_Behera-BIT_MESRA.bbcb2cb6b9e727b164f6.pdf",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/avatar.svg": "/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
+    "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/index.html",
+    "main.c47ad5ef.css.map": "/static/css/main.c47ad5ef.css.map",
+    "main.bb259043.js.map": "/static/js/main.bb259043.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c47ad5ef.css",
+    "static/js/main.bb259043.js"
+  ]
+}
