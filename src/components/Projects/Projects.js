@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import micros from "../../Assets/Projects/micro-sp-new.png";
+import sandbox from "../../Assets/Projects/sandbox.png";
+import reSpring from "../../Assets/Projects/re-spring.png";
+import vPlayer from "../../Assets/Projects/video-player.png";
+import iNumber from "../../Assets/Projects/input-number.png";
+import qrCode from "../../Assets/Projects/qr-code.png";
 
 function Projects() {
   return (
@@ -23,38 +23,69 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={micros}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Micro-Services"
+              description="In this project I'm demonstrating you the most interesting features of Spring Cloud Project for building microservice-based architecture."
+              ghLink="https://github.com/TopDeveloper0103/micro-spring-new"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={sandbox}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Sandbox"
+              description="Personal sandbox to experience the new features of the upcoming Jakarta EE 10. Example projects for previous Java EE/Jakarta EE versions."
+              ghLink="https://github.com/TopDeveloper0103/sandbox-project"
+              // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={reSpring}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="React-SpringBoot"
+              description="This is a sandbox project for demonstrating Reactive Streams support in Spring framework and Spring ecosystem. I've also maintained a series of repos related to ReativeStreams and the latest Spring 5."
+              ghLink="https://github.com/TopDeveloper0103/react-spring-project"
+              // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={vPlayer}
+              isBlog={false}
+              title="Video-Player"
+              description="I built this project using antd components and typescript. In this project, you can see sample react code and use it."
+              ghLink="https://github.com/TopDeveloper0103/video-player"
+              // demoLink="https://editor.soumya-jit.tech/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={iNumber}
+              isBlog={false}
+              title="react-input-number"
+              description="This project is video player project. In this project, I used Video.js player component for Vue(3) and React."
+              ghLink="https://github.com/TopDeveloper0103/react-input-number"
+              // demoLink="https://editor.soumya-jit.tech/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={qrCode}
+              isBlog={false}
+              title="QR-Code"
+              description="EasyQRCodeJS is a feature-rich cross-browser pure JavaScript QRCode generation library. Support Canvas, SVG and Table drawing methods. Support Dot style, Logo, Background image, Colorful, Title etc. settings. Support Angular, Vue.js, React, Next.js, Svelte framework. Support binary(hex) data mode.(Running with DOM on client side)"
+              ghLink="https://github.com/TopDeveloper0103/QRCodeJS-project"
+              // demoLink="https://editor.soumya-jit.tech/"              
+            />
+          </Col>
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -86,7 +117,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
